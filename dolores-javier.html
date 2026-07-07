@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dolores & Javier Peluqueros — Oviedo</title>
+<meta name="description" content="Peluquería en el centro de Oviedo. Corte, color, tratamientos y manicura. Pide tu cita al 985 21 11 99.">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Inter', sans-serif; }
+  .font-serif-display { font-family: 'Playfair Display', serif; }
+  .hero-bg { background: radial-gradient(circle at 80% 20%, #f6dfe8 0%, #fbeef0 40%, #ffffff 80%); }
+</style>
+</head>
+<body class="bg-white text-slate-800">
+
+  <!-- Sticky mobile call bar -->
+  <div class="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-[#9c3b52] text-white flex">
+    <a href="tel:+34985211199" class="flex-1 text-center py-3 font-semibold flex items-center justify-center gap-2">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.36 11.36 0 003.56.57 1 1 0 011 1V20a1 1 0 01-1 1C10.61 21 3 13.39 3 4a1 1 0 011-1h3.49a1 1 0 011 1 11.36 11.36 0 00.57 3.56 1 1 0 01-.25 1.02z"/></svg>
+      Pedir cita
+    </a>
+  </div>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-slate-100">
+    <div class="max-w-6xl mx-auto px-5 py-4 flex items-center justify-between">
+      <div>
+        <p class="font-serif-display font-bold text-xl text-[#9c3b52] leading-tight">Dolores & Javier</p>
+        <p class="text-xs text-slate-500 tracking-wide">PELUQUEROS · OVIEDO</p>
+      </div>
+      <a href="tel:+34985211199" class="hidden md:inline-flex items-center gap-2 bg-[#9c3b52] text-white px-5 py-2.5 rounded-full font-semibold hover:bg-[#832f42] transition">
+        985 21 11 99
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero-bg">
+    <div class="max-w-6xl mx-auto px-5 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <span class="inline-block bg-white border border-[#9c3b52]/20 rounded-full px-4 py-1 text-sm font-medium mb-5 text-[#9c3b52]">Peluquería en el centro de Oviedo</span>
+        <h1 class="font-serif-display text-4xl md:text-5xl font-bold leading-tight mb-5 text-slate-800">Tu imagen, en las manos que la cuidan de verdad</h1>
+        <p class="text-lg text-slate-600 mb-8">Corte, color, tratamientos y manicura con atención cercana y personalizada, en Calle la Lila.</p>
+        <div class="flex flex-wrap gap-4">
+          <a href="tel:+34985211199" class="bg-[#9c3b52] text-white px-6 py-3 rounded-full font-bold hover:bg-[#832f42] transition">📞 985 21 11 99</a>
+          <a href="mailto:djpeluqueros@gmail.com" class="bg-white border border-[#9c3b52] text-[#9c3b52] px-6 py-3 rounded-full font-bold hover:bg-[#9c3b52]/5 transition">Escribir por email</a>
+        </div>
+      </div>
+      <div class="hidden md:flex justify-center">
+        <div class="bg-white border border-[#9c3b52]/15 rounded-2xl p-8 shadow-xl w-full max-w-sm">
+          <p class="font-serif-display font-semibold text-[#9c3b52] mb-4 text-lg">Nuestros servicios</p>
+          <ul class="space-y-3 text-slate-600 text-sm">
+            <li class="flex items-center gap-3"><span class="w-2 h-2 rounded-full bg-[#9c3b52]"></span>Corte y peinado</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 rounded-full bg-[#9c3b52]"></span>Color, mechas y balayage</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 rounded-full bg-[#9c3b52]"></span>Tratamientos capilares</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 rounded-full bg-[#9c3b52]"></span>Manicura y pedicura</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section class="max-w-6xl mx-auto px-5 py-16 md:py-20">
+    <h2 class="font-serif-display text-3xl font-bold text-[#9c3b52] mb-3">Qué hacemos</h2>
+    <p class="text-slate-500 mb-10 max-w-2xl">Productos de calidad y profesionales con experiencia, para cada tipo de cabello.</p>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+      <div class="border border-slate-100 rounded-2xl p-6 hover:shadow-lg transition">
+        <div class="w-12 h-12 rounded-xl bg-[#fbeef0] text-[#9c3b52] flex items-center justify-center mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 9a3 3 0 100-6 3 3 0 000 6zm12 0a3 3 0 100-6 3 3 0 000 6zM8.12 8.12L15.88 20M15.88 8.12L8.12 20"/></svg>
+        </div>
+        <h3 class="font-bold text-lg mb-2">Corte y peinado</h3>
+        <p class="text-slate-500 text-sm">Para todo tipo de cabello y ocasión, con acabado impecable.</p>
+      </div>
+
+      <div class="border border-slate-100 rounded-2xl p-6 hover:shadow-lg transition">
+        <div class="w-12 h-12 rounded-xl bg-[#fbeef0] text-[#9c3b52] flex items-center justify-center mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h10a4 4 0 004-4V9"/></svg>
+        </div>
+        <h3 class="font-bold text-lg mb-2">Color y mechas</h3>
+        <p class="text-slate-500 text-sm">Balayage, mechas, tintes y las últimas tendencias en color.</p>
+      </div>
+
+      <div class="border border-slate-100 rounded-2xl p-6 hover:shadow-lg transition">
+        <div class="w-12 h-12 rounded-xl bg-[#fbeef0] text-[#9c3b52] flex items-center justify-center mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        </div>
+        <h3 class="font-bold text-lg mb-2">Tratamientos</h3>
+        <p class="text-slate-500 text-sm">Hidratación, reparación y brillo para un cabello sano.</p>
+      </div>
+
+      <div class="border border-slate-100 rounded-2xl p-6 hover:shadow-lg transition">
+        <div class="w-12 h-12 rounded-xl bg-[#fbeef0] text-[#9c3b52] flex items-center justify-center mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+        </div>
+        <h3 class="font-bold text-lg mb-2">Manicura y pedicura</h3>
+        <p class="text-slate-500 text-sm">Cuidado completo de manos y pies en la misma visita.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Por qué elegirnos -->
+  <section class="bg-[#fbeef0]/60 py-16 md:py-20">
+    <div class="max-w-6xl mx-auto px-5">
+      <h2 class="font-serif-display text-3xl font-bold text-[#9c3b52] mb-10">Por qué venir a Dolores & Javier</h2>
+      <div class="grid sm:grid-cols-3 gap-8">
+        <div class="bg-white rounded-2xl p-6">
+          <p class="font-bold text-lg mb-2 text-[#9c3b52]">Atención cercana</p>
+          <p class="text-slate-600 text-sm">Te escuchamos antes de tocarte un pelo: cada cita es personalizada.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6">
+          <p class="font-bold text-lg mb-2 text-[#9c3b52]">Profesionales con experiencia</p>
+          <p class="text-slate-600 text-sm">Formación continua en las últimas técnicas de corte y color.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6">
+          <p class="font-bold text-lg mb-2 text-[#9c3b52]">En el centro de Oviedo</p>
+          <p class="text-slate-600 text-sm">Calle la Lila, 30 — fácil de encontrar y de aparcar cerca.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="max-w-6xl mx-auto px-5 py-16 md:py-20">
+    <div class="bg-[#9c3b52] rounded-3xl px-8 py-12 md:p-14 text-white grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="font-serif-display text-3xl font-bold mb-4">Pide tu cita</h2>
+        <p class="text-pink-100 mb-6">Llámanos, escríbenos o pásate por el salón — te esperamos.</p>
+        <div class="space-y-3 text-pink-50">
+          <p class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.36 11.36 0 003.56.57 1 1 0 011 1V20a1 1 0 01-1 1C10.61 21 3 13.39 3 4a1 1 0 011-1h3.49a1 1 0 011 1 11.36 11.36 0 00.57 3.56 1 1 0 01-.25 1.02z"/></svg> 985 21 11 99</p>
+          <p class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg> djpeluqueros@gmail.com</p>
+          <p class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg> Calle la Lila, 30 — Oviedo</p>
+        </div>
+      </div>
+      <div class="flex flex-col gap-4">
+        <a href="tel:+34985211199" class="bg-white text-[#9c3b52] text-center px-6 py-4 rounded-2xl font-bold text-lg hover:bg-pink-50 transition">📞 Llamar: 985 21 11 99</a>
+        <a href="mailto:djpeluqueros@gmail.com" class="bg-[#7a2d3f] text-center px-6 py-4 rounded-2xl font-bold text-lg hover:opacity-90 transition">Escribir un email</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t border-slate-100 py-8">
+    <div class="max-w-6xl mx-auto px-5 flex flex-col md:flex-row justify-between items-center gap-3 text-sm text-slate-400">
+      <p>© 2026 Dolores & Javier Peluqueros — Oviedo</p>
+      <p>Diseño web: <span class="text-slate-500 font-medium">Studio Arias</span></p>
+    </div>
+  </footer>
+
+</body>
+</html>
