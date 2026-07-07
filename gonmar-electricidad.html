@@ -16,10 +16,10 @@
 <body class="bg-white text-slate-800">
 
   <!-- Sticky mobile call bar -->
-  <div class="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-[#171717] text-white flex">
+  <div class="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-[#171717] text-white flex shadow-[0_-4px_20px_rgba(0,0,0,0.35)]">
     <a href="tel:+34647867778" class="flex-1 text-center py-3 font-semibold flex items-center justify-center gap-2">
       <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#f5c518]" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.36 11.36 0 003.56.57 1 1 0 011 1V20a1 1 0 01-1 1C10.61 21 3 13.39 3 4a1 1 0 011-1h3.49a1 1 0 011 1 11.36 11.36 0 00.57 3.56 1 1 0 01-.25 1.02z"/></svg>
-      Llamar ahora
+      Llamar ahora — 24h
     </a>
   </div>
 
@@ -28,7 +28,7 @@
     <div class="max-w-6xl mx-auto px-5 py-4 flex items-center justify-between">
       <div>
         <p class="font-extrabold text-lg text-[#171717] leading-tight">Gonmar <span class="text-[#c99a00]">Electricidad</span></p>
-        <p class="text-xs text-slate-500 tracking-wide">ELECTRICISTA EN OVIEDO</p>
+        <p class="text-xs text-slate-500 tracking-wide">ELECTRICISTA EN OVIEDO · 24H</p>
       </div>
       <a href="tel:+34647867778" class="hidden md:inline-flex items-center gap-2 bg-[#171717] text-[#f5c518] px-5 py-2.5 rounded-full font-semibold hover:bg-black transition">
         647 86 77 78
@@ -37,20 +37,20 @@
   </header>
 
   <!-- Hero -->
-  <section class="hero-bg text-white">
-    <div class="max-w-6xl mx-auto px-5 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+  <section class="hero-bg text-white relative overflow-hidden">
+    <div class="max-w-6xl mx-auto px-5 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center relative z-10">
       <div>
-        <span class="inline-block bg-white/10 border border-white/20 rounded-full px-4 py-1 text-sm font-medium mb-5">Electricista en Oviedo</span>
-        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-5">Instalaciones y averías eléctricas resueltas de verdad</h1>
+        <span class="inline-block bg-white/10 border border-white/20 rounded-full px-4 py-1 text-sm font-medium mb-5">Electricista en Oviedo · Disponible 24 horas</span>
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-5">Instalaciones y averías eléctricas <span class="text-[#f5c518]">resueltas de verdad</span></h1>
         <p class="text-lg text-slate-300 mb-8">Reparaciones, mantenimiento y pequeñas reformas eléctricas, con presupuesto claro antes de empezar.</p>
         <div class="flex flex-wrap gap-4">
           <a href="tel:+34647867778" class="bg-[#f5c518] text-[#171717] px-6 py-3 rounded-full font-bold hover:bg-[#e0b400] transition">📞 647 86 77 78</a>
           <a href="#contacto" class="border border-white/30 text-white px-6 py-3 rounded-full font-bold hover:bg-white/10 transition">Pedir presupuesto</a>
         </div>
         <div class="flex flex-wrap gap-6 mt-10 text-sm text-slate-300">
-          <div><span class="text-2xl font-extrabold text-[#f5c518] block">5.0★</span>valoración de clientes</div>
-          <div><span class="text-2xl font-extrabold text-[#f5c518] block">100%</span>presupuesto sin compromiso</div>
-          <div><span class="text-2xl font-extrabold text-[#f5c518] block">Local</span>Oviedo y alrededores</div>
+          <div><span class="text-2xl font-extrabold text-[#f5c518] block">5.0★</span>79 reseñas en Google</div>
+          <div><span class="text-2xl font-extrabold text-[#f5c518] block">24h</span>disponibilidad real</div>
+          <div><span class="text-2xl font-extrabold text-[#f5c518] block">100%</span>presupuesto claro</div>
         </div>
       </div>
       <div class="hidden md:block">
@@ -67,79 +67,108 @@
     </div>
   </section>
 
-  <!-- Servicios -->
+  <!-- Equipo profesional: fotos reales de trabajo -->
   <section class="max-w-6xl mx-auto px-5 py-16 md:py-20">
-    <h2 class="text-3xl font-extrabold text-[#171717] mb-3">Nuestros servicios</h2>
-    <p class="text-slate-500 mb-10 max-w-2xl">Trabajamos en viviendas, comunidades y pequeños negocios en Oviedo.</p>
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-
-      <div class="border border-slate-100 rounded-2xl p-6 hover:shadow-lg transition">
-        <div class="w-12 h-12 rounded-xl bg-[#fdf6e0] text-[#c99a00] flex items-center justify-center mb-4">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+    <p class="text-sm font-bold text-[#c99a00] tracking-widest mb-2">CÓMO TRABAJAMOS</p>
+    <h2 class="text-3xl font-extrabold text-[#171717] mb-3">Medición real, no a ojo</h2>
+    <p class="text-slate-500 mb-10 max-w-2xl">Cada instalación y avería se comprueba con equipo profesional de medición — pinza amperométrica, telurómetro y comprobación de diferenciales — antes de dar el trabajo por cerrado.</p>
+    <div class="grid sm:grid-cols-2 gap-6">
+      <div class="rounded-2xl overflow-hidden border border-slate-100 group">
+        <div class="aspect-[4/3] overflow-hidden">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAGLG9uW7u3drjpdJz4ve4iJlcKo1MjT_u_Lv4CMzmQS1YInFtC6-1J_825iuv0EVgVljI0x-ZSH7Lc1Butd9vEWNFjyJDL_-DZZTRWkvV2NgTy7NkQZH3niq9ZjY1NNU6pnvULEXQ=w800-h600-k-no" alt="Comprobación de diferencial con equipo de medición Sonel" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
         </div>
-        <h3 class="font-bold text-lg mb-2">Instalaciones eléctricas</h3>
-        <p class="text-slate-500 text-sm">Instalaciones nuevas o ampliaciones, con boletín cuando lo necesites.</p>
-      </div>
-
-      <div class="border border-slate-100 rounded-2xl p-6 hover:shadow-lg transition">
-        <div class="w-12 h-12 rounded-xl bg-[#fdf6e0] text-[#c99a00] flex items-center justify-center mb-4">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        <div class="p-5">
+          <h3 class="font-bold">Comprobación de diferenciales</h3>
+          <p class="text-slate-500 text-sm">Medición de tiempos de disparo y corriente de fuga con equipo certificado.</p>
         </div>
-        <h3 class="font-bold text-lg mb-2">Averías y reparaciones</h3>
-        <p class="text-slate-500 text-sm">Cortes de luz, diferenciales que saltan, enchufes que no funcionan.</p>
       </div>
-
-      <div class="border border-slate-100 rounded-2xl p-6 hover:shadow-lg transition">
-        <div class="w-12 h-12 rounded-xl bg-[#fdf6e0] text-[#c99a00] flex items-center justify-center mb-4">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+      <div class="rounded-2xl overflow-hidden border border-slate-100 group">
+        <div class="aspect-[4/3] overflow-hidden">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAFRPw9nQgQ204d6KmTvr8PlPN-IXFjMX7nD1IsRMdyocYxYR1sdnQ1P11mskAkYrMFQLnirSj6tc8wBNQK10J4GJUWOAAownFoH-mKYzWojFErIY-uzi6SZkABQs-ym39et_Z4O=w800-h600-k-no" alt="Medición de consumo con pinza amperométrica" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
         </div>
-        <h3 class="font-bold text-lg mb-2">Detección de derivaciones</h3>
-        <p class="text-slate-500 text-sm">Medición de fugas de corriente y puesta a tierra.</p>
-      </div>
-
-      <div class="border border-slate-100 rounded-2xl p-6 hover:shadow-lg transition">
-        <div class="w-12 h-12 rounded-xl bg-[#fdf6e0] text-[#c99a00] flex items-center justify-center mb-4">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+        <div class="p-5">
+          <h3 class="font-bold">Medición de cargas</h3>
+          <p class="text-slate-500 text-sm">Pinza amperométrica para detectar sobrecargas antes de que den problemas.</p>
         </div>
-        <h3 class="font-bold text-lg mb-2">Pequeñas reformas</h3>
-        <p class="text-slate-500 text-sm">Parte eléctrica de reformas de cocina, baño o vivienda completa.</p>
       </div>
+    </div>
+  </section>
 
-      <div class="border border-slate-100 rounded-2xl p-6 hover:shadow-lg transition">
-        <div class="w-12 h-12 rounded-xl bg-[#fdf6e0] text-[#c99a00] flex items-center justify-center mb-4">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+  <!-- Servicios -->
+  <section class="bg-slate-50 py-16 md:py-20">
+    <div class="max-w-6xl mx-auto px-5">
+      <h2 class="text-3xl font-extrabold text-[#171717] mb-3">Nuestros servicios</h2>
+      <p class="text-slate-500 mb-10 max-w-2xl">Trabajamos en viviendas, comunidades y pequeños negocios en Oviedo.</p>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <div class="bg-white border border-slate-100 rounded-2xl p-6 hover:shadow-lg transition">
+          <div class="w-12 h-12 rounded-xl bg-[#fdf6e0] text-[#c99a00] flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <h3 class="font-bold text-lg mb-2">Instalaciones eléctricas</h3>
+          <p class="text-slate-500 text-sm">Instalaciones nuevas o ampliaciones, con boletín cuando lo necesites.</p>
         </div>
-        <h3 class="font-bold text-lg mb-2">Iluminación</h3>
-        <p class="text-slate-500 text-sm">Cambio a LED, focos empotrados y puntos de luz nuevos.</p>
-      </div>
 
-      <div class="border border-slate-100 rounded-2xl p-6 hover:shadow-lg transition">
-        <div class="w-12 h-12 rounded-xl bg-[#fdf6e0] text-[#c99a00] flex items-center justify-center mb-4">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        <div class="bg-white border border-slate-100 rounded-2xl p-6 hover:shadow-lg transition">
+          <div class="w-12 h-12 rounded-xl bg-[#fdf6e0] text-[#c99a00] flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="font-bold text-lg mb-2">Averías y reparaciones</h3>
+          <p class="text-slate-500 text-sm">Cortes de luz, diferenciales que saltan, enchufes que no funcionan.</p>
         </div>
-        <h3 class="font-bold text-lg mb-2">Atención cercana</h3>
-        <p class="text-slate-500 text-sm">Sin call centers ni franquicias: hablas directamente con quien viene a casa.</p>
-      </div>
 
+        <div class="bg-white border border-slate-100 rounded-2xl p-6 hover:shadow-lg transition">
+          <div class="w-12 h-12 rounded-xl bg-[#fdf6e0] text-[#c99a00] flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          </div>
+          <h3 class="font-bold text-lg mb-2">Detección de derivaciones</h3>
+          <p class="text-slate-500 text-sm">Medición de fugas de corriente y puesta a tierra.</p>
+        </div>
+
+        <div class="bg-white border border-slate-100 rounded-2xl p-6 hover:shadow-lg transition">
+          <div class="w-12 h-12 rounded-xl bg-[#fdf6e0] text-[#c99a00] flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <h3 class="font-bold text-lg mb-2">Pequeñas reformas</h3>
+          <p class="text-slate-500 text-sm">Parte eléctrica de reformas de cocina, baño o vivienda completa.</p>
+        </div>
+
+        <div class="bg-white border border-slate-100 rounded-2xl p-6 hover:shadow-lg transition">
+          <div class="w-12 h-12 rounded-xl bg-[#fdf6e0] text-[#c99a00] flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+          </div>
+          <h3 class="font-bold text-lg mb-2">Iluminación</h3>
+          <p class="text-slate-500 text-sm">Cambio a LED, focos empotrados y puntos de luz nuevos.</p>
+        </div>
+
+        <div class="bg-white border border-slate-100 rounded-2xl p-6 hover:shadow-lg transition">
+          <div class="w-12 h-12 rounded-xl bg-[#fdf6e0] text-[#c99a00] flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
+          <h3 class="font-bold text-lg mb-2">Atención cercana</h3>
+          <p class="text-slate-500 text-sm">Sin call centers ni franquicias: hablas directamente con quien viene a casa.</p>
+        </div>
+
+      </div>
     </div>
   </section>
 
   <!-- Por qué elegirnos -->
-  <section class="bg-slate-50 py-16 md:py-20">
+  <section class="py-16 md:py-20">
     <div class="max-w-6xl mx-auto px-5">
       <h2 class="text-3xl font-extrabold text-[#171717] mb-10">¿Por qué Gonmar Electricidad?</h2>
       <div class="grid sm:grid-cols-3 gap-8">
-        <div>
+        <div class="border-l-2 border-[#f5c518] pl-4">
           <p class="text-4xl font-extrabold text-[#c99a00] mb-2">5.0★</p>
-          <p class="text-slate-600 text-sm">valoración media de clientes en Google.</p>
+          <p class="text-slate-600 text-sm">valoración media de 79 clientes en Google.</p>
         </div>
-        <div>
+        <div class="border-l-2 border-[#f5c518] pl-4">
+          <p class="text-4xl font-extrabold text-[#c99a00] mb-2">24h</p>
+          <p class="text-slate-600 text-sm">disponibilidad real para urgencias, no solo de palabra.</p>
+        </div>
+        <div class="border-l-2 border-[#f5c518] pl-4">
           <p class="text-4xl font-extrabold text-[#c99a00] mb-2">100%</p>
           <p class="text-slate-600 text-sm">presupuesto claro antes de empezar el trabajo.</p>
-        </div>
-        <div>
-          <p class="text-4xl font-extrabold text-[#c99a00] mb-2">Local</p>
-          <p class="text-slate-600 text-sm">un profesional de Oviedo, disponibilidad real y trato directo.</p>
         </div>
       </div>
     </div>
@@ -154,7 +183,7 @@
         <div class="space-y-3 text-slate-200">
           <p class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#f5c518]" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.36 11.36 0 003.56.57 1 1 0 011 1V20a1 1 0 01-1 1C10.61 21 3 13.39 3 4a1 1 0 011-1h3.49a1 1 0 011 1 11.36 11.36 0 00.57 3.56 1 1 0 01-.25 1.02z"/></svg> 647 86 77 78</p>
           <p class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#f5c518]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg> Calle Colegio San Ignacio, 26 — Oviedo</p>
-          <p class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#f5c518]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg> Oviedo y alrededores</p>
+          <p class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#f5c518]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg> Oviedo y alrededores · abierto 24h</p>
         </div>
       </div>
       <div class="flex flex-col gap-4">
